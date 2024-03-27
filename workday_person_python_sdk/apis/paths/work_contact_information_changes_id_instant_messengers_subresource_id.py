@@ -1,0 +1,11 @@
+from workday_person_python_sdk.paths.work_contact_information_changes_id_instant_messengers_subresource_id.get import ApiForget
+from workday_person_python_sdk.paths.work_contact_information_changes_id_instant_messengers_subresource_id.delete import ApiFordelete
+from workday_person_python_sdk.paths.work_contact_information_changes_id_instant_messengers_subresource_id.patch import ApiForpatch
+
+
+class WorkContactInformationChangesIDInstantMessengersSubresourceID(
+    ApiForget,
+    ApiFordelete,
+    ApiForpatch,
+):
+    pass
